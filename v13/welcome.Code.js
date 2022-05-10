@@ -1,5 +1,5 @@
-//Code Developer: Amir-78 (AmirDev)
-//Discord: Amir.#2013 (https://discord.gg/CVZ2g38fy4)
+//Code Developer: Amir-78 (AmirDev);
+//Discord: Amir.#2013 (https://discord.gg/CVZ2g38fy4);
 const config = require('./welcome.config.json');
 /*
 //config.json:
