@@ -1,0 +1,7 @@
+{
+    "guildId": "",
+    "channelId": "",
+    "welcomeMessage": "{member} ( {memberTag} ) Welcome to **{server}**\nYou are the member number **{memberCount}**",
+    "allowBots": false,
+    "deleteTime": 15
+}
