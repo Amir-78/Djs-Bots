@@ -38,6 +38,6 @@ client.on('guildMemberAdd', async (member) => {
         .replace(/{memberCount}/g, `${member.guild.memberCount}`)
     Wlcchannel.send({ content: `${wlcMessage}` }).then(async (msg) => {
         if (config.deleteTime === 0) return;
-        msg.delete({ timeout: (config.deleteTime * 1000) })
+        setTimeout(() => msg.delete() ,(config.deleteTime * 1000))
     })
 });
