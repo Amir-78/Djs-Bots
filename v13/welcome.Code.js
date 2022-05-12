@@ -26,7 +26,7 @@ const config = require('./welcome.config.json');
 */
 
 client.on('guildMemberAdd', async (member) => {
-    if (!member.guild.id != config.guildId) return;
+    if (member.guild.id != config.guildId) return;
     if (member.user.bot && !config.allowBots) return;
     let Wlcchannel = member.guild.channels.cache.get(config.channelId);
     if (!Wlcchannel) return console.error("CHANNEL_NOT_FOUND: Welcome channel not found!");
